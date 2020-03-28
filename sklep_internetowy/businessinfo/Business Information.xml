@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A925BA96-DADD-948C-8E4F-94812535D97E">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:32:32 UTC</createdTime>
+<ownerDesignName>sys_bazodanowe</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

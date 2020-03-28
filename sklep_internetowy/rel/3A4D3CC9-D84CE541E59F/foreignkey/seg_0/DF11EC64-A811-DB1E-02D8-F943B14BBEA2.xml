@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF11EC64-A811-DB1E-02D8-F943B14BBEA2" containerWithKeyObject="36E3F052-4B4A-9394-217F-22EFAEDE4A68" localFKIndex="909F4429-5070-4FD7-9CD4-1D482A1C1B7D" name="KLIENT_PARAGON; FAKTURA_FK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:26:10 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<referredTableLongName>PARAGON; FAKTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39AF2917-356B-9D71-391E-FBB929145549</referredTableID>
+<keyObject>CA3AB810-4C11-CFAC-22DB-D28C8377CFD4</keyObject>
+<referredKeyID>CA3AB810-4C11-CFAC-22DB-D28C8377CFD4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Numer paragonu/faktury</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

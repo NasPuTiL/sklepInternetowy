@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CEC76FB-C272-B669-8939-6A7731C93F70" name="UMOWA">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>06D7437B-9293-C99E-61ED-16FCEE5AFBE5</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numer umowy" id="03DC00BF-470C-0DF8-9739-C5F6493E8002">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>96522B46-3C7E-80E0-3186-17F91189CCB5</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Treść umowy" id="03AE6794-FF81-DBFD-CACD-1F5C8B6CC114">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>050775FE-C018-537C-364C-E09C5F53D50B</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rodzaj umowy" id="64A37986-21AB-7424-08F8-1EA8311DB0CD">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>B37F7857-46CF-0536-6B54-7EF0369B55CD</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data rozpoczęcia" id="7F36F4BA-EF3A-EC77-2661-0D46567E4E6D">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>AFF2CE7D-10DE-43A0-A071-79B5C0BACC9F</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>89EFAAB1-8997-64B5-FE85-37BC8F4DD5E2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data zakończenia" id="194B6252-72A2-3A49-FEF7-5C244B420470">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>F9F99B87-B6A7-1101-4896-EB5FE85DFCB9</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>89EFAAB1-8997-64B5-FE85-37BC8F4DD5E2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIP firmy" id="B556ABB2-3F65-CD77-92F5-82736A2AA131">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>03EF295D-F6BC-C4C8-6726-925B2A294DF7</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<referedAttribute>51BAFDC9-2C6B-65E1-A25B-3FDBDBBBD509</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BD10D33-540A-2531-B3C7-97A118A2B557" name="UMOWA PK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>9D2E0A7D-FFE9-86D2-B3F3-1B916F702C4C</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03DC00BF-470C-0DF8-9739-C5F6493E8002</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SZCZEGÓŁY TRANSAKCJI_TOWAR_FK" directorySegmentName="seg_0" id="705299B6-6030-2FE8-63F2-E7BEE9A730CC">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>FD122416-BD70-1A79-88DF-33C37306BB70</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<sourcePk>F80B3451-83C3-E63B-E919-FA91B16A93C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3316347-D30A-722A-4F11-2862456A3F4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DB9222B-DE58-1B81-AA9C-37A0CF51FDD3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

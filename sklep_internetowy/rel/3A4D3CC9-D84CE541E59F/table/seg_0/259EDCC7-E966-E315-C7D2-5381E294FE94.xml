@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="259EDCC7-E966-E315-C7D2-5381E294FE94" name="PRACOWNIK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:43:40 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID pracownika" id="75C0A7E9-3770-8BB8-5D15-15F4D73B4BA4">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:44:44 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imię" id="6B9B18C0-0032-9D4F-76E3-312F54C390D6">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:44:44 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="433BABF6-066B-7919-F429-F94DE34AA7C4">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:44:44 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Płeć" id="4ABAAE42-D39B-06C1-3CED-9B276AC4D475">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:44:44 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="5F2580F3-CD90-4C87-6B1A-85304F04D654">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:44:44 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data rozpoczęcia pracy" id="F7F877C8-5D2C-4313-3F2A-0B85BD0E0412">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:44:44 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>89EFAAB1-8997-64B5-FE85-37BC8F4DD5E2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBC9D60F-389A-05C5-1587-CE85785E1258" name="PRACOWNIK_PK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:09:02 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75C0A7E9-3770-8BB8-5D15-15F4D73B4BA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

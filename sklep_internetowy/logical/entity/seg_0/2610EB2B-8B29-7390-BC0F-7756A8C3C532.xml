@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2610EB2B-8B29-7390-BC0F-7756A8C3C532" name="PRACOWNIK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>259EDCC7-E966-E315-C7D2-5381E294FE94</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID pracownika" id="6A27D5D6-0648-DDD0-47FF-236C4EC4752B">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>75C0A7E9-3770-8BB8-5D15-15F4D73B4BA4</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imię" id="C7371FC3-8F1C-A325-2BFF-20CDB8B462FC">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>6B9B18C0-0032-9D4F-76E3-312F54C390D6</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="24D75F95-9D37-894A-5A78-8C10D19DF90E">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>433BABF6-066B-7919-F429-F94DE34AA7C4</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Płeć" id="5C198A78-0283-8660-4BEB-20A3D5CBC7C1">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>4ABAAE42-D39B-06C1-3CED-9B276AC4D475</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="72E6AE89-1CB1-8402-FEE4-91266A7ED7B1">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>5F2580F3-CD90-4C87-6B1A-85304F04D654</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data rozpoczęcia pracy" id="D627BF15-EB11-68FE-DA5C-A6435DDF4EE8">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>F7F877C8-5D2C-4313-3F2A-0B85BD0E0412</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>89EFAAB1-8997-64B5-FE85-37BC8F4DD5E2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0FEA9D8-958F-F600-5756-263D458891C7" name="PRACOWNIK PK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>CBC9D60F-389A-05C5-1587-CE85785E1258</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A27D5D6-0648-DDD0-47FF-236C4EC4752B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

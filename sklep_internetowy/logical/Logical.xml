@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AE40DF70-9A45-A0F8-95BF-A11D1CBDBF23" mainViewID="3AEA95CD-2B67-FCAB-B624-E46BCB0A654E">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:32:31 UTC</createdTime>
+<ownerDesignName>sys_bazodanowe</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

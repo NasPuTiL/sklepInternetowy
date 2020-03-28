@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD122416-BD70-1A79-88DF-33C37306BB70" containerWithKeyObject="9C094D29-0C03-FF32-05A2-FB9CC13703AF" localFKIndex="252AA067-41D8-95C8-2E02-1BD2A7A6CBFF" name="SZCZEGÓŁY TRANSAKCJI_TOWAR_FK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:25:21 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<referredTableLongName>TOWAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B186CD68-9072-99FC-C38E-882E133694D3</referredTableID>
+<keyObject>ED03570A-6A7F-F747-37CD-1F68F85BE767</keyObject>
+<referredKeyID>ED03570A-6A7F-F747-37CD-1F68F85BE767</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID towaru</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

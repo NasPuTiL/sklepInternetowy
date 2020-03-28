@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06F5804B-4417-8253-AEF3-806DCE4253DE" containerWithKeyObject="06D7437B-9293-C99E-61ED-16FCEE5AFBE5" localFKIndex="C88DD484-67D1-5021-06B2-AB72D32F14FC" name="UMOWA_SKLEP_FK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:28:01 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<referredTableLongName>SKLEP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A27F121-E5D4-0E07-268F-7FCB568AE9CF</referredTableID>
+<keyObject>8786798F-87FC-852B-377F-3DD6B998C59A</keyObject>
+<referredKeyID>8786798F-87FC-852B-377F-3DD6B998C59A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP firmy</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

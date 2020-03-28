@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B186CD68-9072-99FC-C38E-882E133694D3" name="TOWAR">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:01:47 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID towaru" id="B164B10A-BF27-FF9F-8080-7DE97CD40793">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:02:19 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="FD33EB8B-5529-5E03-8C98-D0DB7A490609">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:02:19 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="2511FB8D-784F-9300-FE08-5274D8164373">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:02:19 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategoria" id="7EB260DA-F150-9F61-43C5-BA91CA4B3D44">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:02:19 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="DC33AFE7-11D0-493D-52AC-90181DCB5CAA">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:02:39 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>F180C153-59B0-23BC-379D-D4274E522EC0</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokalizacja w magazynie" id="74359A49-91A9-1E88-ADA7-E2A801BB441B">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:02:39 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED03570A-6A7F-F747-37CD-1F68F85BE767" name="TOWAR_PK">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 16:08:50 UTC</createdTime>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B164B10A-BF27-FF9F-8080-7DE97CD40793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

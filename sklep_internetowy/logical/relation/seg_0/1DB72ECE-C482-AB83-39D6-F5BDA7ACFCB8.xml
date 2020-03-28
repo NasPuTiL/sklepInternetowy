@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SZCZEGÓŁY TRANSAKCJI_PARAGON; FAKTURA_FK" directorySegmentName="seg_0" id="1DB72ECE-C482-AB83-39D6-F5BDA7ACFCB8">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>0A7BF4A0-087D-CE58-2254-F0725BBD325D</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<sourcePk>71938B12-70E4-F3DA-F55E-3286038DA308</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5128A340-95C7-9187-9361-610E83A9AC1A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DB9222B-DE58-1B81-AA9C-37A0CF51FDD3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

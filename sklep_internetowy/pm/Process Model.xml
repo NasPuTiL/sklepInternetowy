@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="4296D0E5-BC1B-BCCE-9E8F-714341E356DE">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:32:31 UTC</createdTime>
+<ownerDesignName>sys_bazodanowe</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

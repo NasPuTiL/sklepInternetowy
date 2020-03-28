@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sklep_internetowy" id="697B22AA-567C-B62D-3B86-E07724D1A02B" version="3.5">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-25 15:32:31 UTC</createdTime>
+<ownerDesignName>sys_bazodanowe</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>697B22AA-567C-B62D-3B86-E07724D1A02B</designId>
+</OSDM_Design>

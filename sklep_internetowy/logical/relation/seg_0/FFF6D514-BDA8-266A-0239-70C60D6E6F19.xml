@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANEKS DO UMOWY_UMOWA_FK" directorySegmentName="seg_0" id="FFF6D514-BDA8-266A-0239-70C60D6E6F19">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>59B6F383-865F-C15C-1B95-6A79E0C64F00</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<sourcePk>3BD10D33-540A-2531-B3C7-97A118A2B557</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2CEC76FB-C272-B669-8939-6A7731C93F70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59BBA313-39D5-1E3D-635B-0232622F59BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

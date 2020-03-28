@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UMOWA_SKLEP_FK" directorySegmentName="seg_0" id="03EF295D-F6BC-C4C8-6726-925B2A294DF7">
+<createdBy>eglob</createdBy>
+<createdTime>2020-03-27 17:20:07 UTC</createdTime>
+<generatorID>06F5804B-4417-8253-AEF3-806DCE4253DE</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<sourcePk>A01626D3-5C42-8160-B984-46F6B549FA63</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AAA9827-053D-8982-4FE8-E706B3A6C679</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2CEC76FB-C272-B669-8939-6A7731C93F70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
