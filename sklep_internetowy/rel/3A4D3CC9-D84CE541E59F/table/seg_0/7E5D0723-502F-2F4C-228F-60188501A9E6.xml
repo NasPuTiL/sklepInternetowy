@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E5D0723-502F-2F4C-228F-60188501A9E6" name="SKLEP">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>3AAA9827-053D-8982-4FE8-E706B3A6C679</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIP_firmy" id="49919229-92F4-96A7-328A-B96755D30ABA">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>51BAFDC9-2C6B-65E1-A25B-3FDBDBBBD509</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="0D44AAE9-1084-463D-6BCF-D14229D3F7C2">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>FACD991F-65C8-F94F-B29B-4D3FF4520F41</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dane_wlasciciela" id="EE0B2729-4992-4DD4-087F-5EA8D22E8ABD">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>E59995B1-91BD-D615-8CCF-DB6516A98E5D</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opinie_klientow" id="4BA7DD8D-D7F8-B42B-3B39-133AE0E8A25F">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>12609B9B-D154-AD20-3C18-B0A04E47B837</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54E0E887-75BC-5170-8D10-9657D7606A37" name="SKLEP_PK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>A01626D3-5C42-8160-B984-46F6B549FA63</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49919229-92F4-96A7-328A-B96755D30ABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

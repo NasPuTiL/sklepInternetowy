@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FE59E6E-0692-ABDF-8103-0551DFC8CB26" name="UMOWA">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>2CEC76FB-C272-B669-8939-6A7731C93F70</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numer_umowy" id="39358C69-3414-0C7F-41B6-157E6318955D">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>03DC00BF-470C-0DF8-9739-C5F6493E8002</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tresc_umowy" id="490BD2FD-3526-1B11-E581-0C3CEEE4432D">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>03AE6794-FF81-DBFD-CACD-1F5C8B6CC114</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_umowy" id="080AC276-0993-7B41-F670-0070EE320528">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>64A37986-21AB-7424-08F8-1EA8311DB0CD</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_rozpoczęcia" id="1A3FE79C-ED1E-7DDF-E7B5-F67AA9132B8D">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>7F36F4BA-EF3A-EC77-2661-0D46567E4E6D</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zakonczenia" id="64B56466-3F21-8630-DDA9-E6ACA8E42B1D">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>194B6252-72A2-3A49-FEF7-5C244B420470</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOWNIK_ID_pracownika" id="37652B3F-3AFB-F3B9-BFE9-633885CB61FF">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>CFEE871A-D619-98A5-7CE4-811CAACEB9B8</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="160C80B0-0B9A-D276-C6B7-F59CE64C1448" referredColumn="FB769887-82FF-2E20-760D-4C037FD6DBC5"/>
+</associations>
+</Column>
+<Column name="SKLEP_NIP_firmy" id="007F4FBA-435B-A909-FFB3-6E5F770154FA">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>9A0C3370-13AB-3A59-B79B-4C7E18F5FEFF</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="712ED90D-8CF4-148E-21F7-DC6A3CB1B6D6" referredColumn="49919229-92F4-96A7-328A-B96755D30ABA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="959FB4D1-D52F-2C39-8537-F5182AA0CE3A" name="UMOWA_PK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>3BD10D33-540A-2531-B3C7-97A118A2B557</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39358C69-3414-0C7F-41B6-157E6318955D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09538088-6F77-5350-7837-D52CD49C6103" name="UMOWA_PRACOWNIK_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>4373D6EB-9F20-0FEE-372F-53AC069BB244</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37652B3F-3AFB-F3B9-BFE9-633885CB61FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C33AD9E-7614-3B7A-6606-593DE36F94E1" name="UMOWA_SKLEP_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>03EF295D-F6BC-C4C8-6726-925B2A294DF7</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="007F4FBA-435B-A909-FFB3-6E5F770154FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

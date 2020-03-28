@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32B63A43-6E30-56A2-7789-EA51742AE9A2" containerWithKeyObject="7473B9C5-A308-703F-B361-799FE4402D93" localFKIndex="BA2EF3CE-0479-7186-AAE5-5E6EEE51E063" name="ANEKS_DO_UMOWY_UMOWA_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>FFF6D514-BDA8-266A-0239-70C60D6E6F19</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<referredTableLongName>UMOWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FE59E6E-0692-ABDF-8103-0551DFC8CB26</referredTableID>
+<keyObject>959FB4D1-D52F-2C39-8537-F5182AA0CE3A</keyObject>
+<referredKeyID>959FB4D1-D52F-2C39-8537-F5182AA0CE3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Numer_umowy</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

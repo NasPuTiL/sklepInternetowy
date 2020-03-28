@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="26983C4D-9899-AC1A-FAA3-C323B13D3581" containerWithKeyObject="FCAA1EEA-1AD3-7DBE-E567-6340A0B9515F" localFKIndex="48762AB4-93F0-0C18-3D8D-96355B09B40C" name="SZCZEGOLY_TRANSAKCJI_TOWAR_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>705299B6-6030-2FE8-63F2-E7BEE9A730CC</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<referredTableLongName>TOWAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9FD52E4-F77C-806E-FB6A-6F650C5B08FB</referredTableID>
+<keyObject>706BDEB2-36B9-3DF6-44F2-DAE77886786C</keyObject>
+<referredKeyID>706BDEB2-36B9-3DF6-44F2-DAE77886786C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_towaru</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

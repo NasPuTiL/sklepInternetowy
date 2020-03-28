@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID towaru" id="0E5494BB-8AEB-C643-2855-502522312948">
+<Attribute name="ID_towaru" id="0E5494BB-8AEB-C643-2855-502522312948">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>B164B10A-BF27-FF9F-8080-7DE97CD40793</generatorID>
@@ -26,7 +26,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nazwa" id="EB029AED-26AF-32CE-13AC-1E24564917AF">
@@ -40,8 +40,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Opis" id="16C8550B-12C8-CAD4-9A81-65E2283E4BA2">
 <createdBy>eglob</createdBy>
@@ -54,8 +55,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Kategoria" id="8B01E19B-B956-A062-850D-4880CE01B505">
 <createdBy>eglob</createdBy>
@@ -68,8 +70,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Cena" id="5BB55DEE-A1A4-864F-CB15-11036E706C28">
 <createdBy>eglob</createdBy>
@@ -82,10 +85,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>F180C153-59B0-23BC-379D-D4274E522EC0</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Lokalizacja w magazynie" id="DB6CC392-BB6F-C705-3E85-2AB768EBC467">
+<Attribute name="Lokalizacja_w_magazynie" id="DB6CC392-BB6F-C705-3E85-2AB768EBC467">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>74359A49-91A9-1E88-ADA7-E2A801BB441B</generatorID>
@@ -96,8 +100,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

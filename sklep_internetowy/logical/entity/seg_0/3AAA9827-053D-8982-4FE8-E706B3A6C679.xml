@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NIP firmy" id="51BAFDC9-2C6B-65E1-A25B-3FDBDBBBD509">
+<Attribute name="NIP_firmy" id="51BAFDC9-2C6B-65E1-A25B-3FDBDBBBD509">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>475843BA-D431-6634-DEF1-0BE755D1EF88</generatorID>
@@ -26,7 +26,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Adres" id="FACD991F-65C8-F94F-B29B-4D3FF4520F41">
@@ -40,10 +40,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dane właściciela" id="E59995B1-91BD-D615-8CCF-DB6516A98E5D">
+<Attribute name="Dane_wlasciciela" id="E59995B1-91BD-D615-8CCF-DB6516A98E5D">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>E7D939E8-633E-0C85-79AB-8DF690582D2B</generatorID>
@@ -54,10 +55,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Opinie klientów" id="12609B9B-D154-AD20-3C18-B0A04E47B837">
+<Attribute name="Opinie_klientow" id="12609B9B-D154-AD20-3C18-B0A04E47B837">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>021F15F5-09A8-E0CF-26F5-7B53A185E32E</generatorID>
@@ -68,8 +70,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

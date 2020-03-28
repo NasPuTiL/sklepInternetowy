@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7473B9C5-A308-703F-B361-799FE4402D93" name="ANEKS_DO_UMOWY">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>59BBA313-39D5-1E3D-635B-0232622F59BB</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numer_aneksu" id="AB72A8F3-4B14-16E3-8C2A-EB84FB0AD750">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>4FAA1FBD-C384-6097-2D71-80B858DC732E</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UMOWA_Numer_umowy" id="F427307F-C6E1-A991-7A48-E01C33A43586">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>F7A52CB2-DF47-F5BA-E5A3-39894C7028A1</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32B63A43-6E30-56A2-7789-EA51742AE9A2" referredColumn="39358C69-3414-0C7F-41B6-157E6318955D"/>
+</associations>
+</Column>
+<Column name="Data_wejscia_w_zycie" id="DD6F607D-4D7C-6F24-0BC5-BE296A759A3A">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>D8BC7BD9-45C8-3FFB-1C3F-F04DC7C8905A</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_zmiany_stanowiska" id="97E87A5E-BA7C-A1D2-27AD-07ABAA80DC33">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>D41B5BF2-8076-B0BF-45E6-DB25D02147D2</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF7C34A9-A7E7-59D0-8943-9B725AADF4D0" name="ANEKS_DO_UMOWY_PK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>D7DD5771-A7A9-0057-C22E-0F601EE98B45</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB72A8F3-4B14-16E3-8C2A-EB84FB0AD750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA2EF3CE-0479-7186-AAE5-5E6EEE51E063" name="ANEKS_DO_UMOWY_UMOWA_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>FFF6D514-BDA8-266A-0239-70C60D6E6F19</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F427307F-C6E1-A991-7A48-E01C33A43586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

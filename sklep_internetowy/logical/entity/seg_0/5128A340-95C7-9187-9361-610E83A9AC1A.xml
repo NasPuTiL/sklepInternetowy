@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5128A340-95C7-9187-9361-610E83A9AC1A" name="PARAGON; FAKTURA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5128A340-95C7-9187-9361-610E83A9AC1A" name="PARAGON_FAKTURA">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>39AF2917-356B-9D71-391E-FBB929145549</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Numer paragonu/faktury" id="37F2E67B-F528-3652-E6B9-5FE5AA16E8EB">
+<Attribute name="Numer_paragonu_faktury" id="37F2E67B-F528-3652-E6B9-5FE5AA16E8EB">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>58802C19-5665-4097-0E23-AC4C6BE14CCF</generatorID>
@@ -26,10 +26,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dane sklepu" id="5B25DA80-F8FE-C73A-F35A-D6428906293C">
+<Attribute name="Dane_sklepu" id="5B25DA80-F8FE-C73A-F35A-D6428906293C">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>8956F9D7-E580-CD95-E851-3D5C75AD1008</generatorID>
@@ -40,10 +40,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>B0ACDBF3-701F-FC93-921B-53A59815077B</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Suma do zapłaty" id="3B710D58-1780-C1F7-470E-99C5C6EF2B48">
+<Attribute name="Suma_do_zaplaty" id="3B710D58-1780-C1F7-470E-99C5C6EF2B48">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>39B904F3-1E2D-C963-F216-FB1C0AD25E75</generatorID>
@@ -54,10 +55,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>F180C153-59B0-23BC-379D-D4274E522EC0</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID pracownika" id="EA525F2D-64F3-F27B-70D8-6E5A77C2E949">
+<Attribute name="ID_pracownika" id="EA525F2D-64F3-F27B-70D8-6E5A77C2E949">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>379D2DB8-429D-241E-8F37-8D09B03D3B1B</generatorID>
@@ -68,10 +70,10 @@
 <referedAttribute>6A27D5D6-0648-DDD0-47FF-236C4EC4752B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>50F37224-9687-5456-906E-DFFA42D409FD</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Data sprzedaży" id="B4E51991-97DC-965A-2F3D-780C55A30EB8">
+<Attribute name="Data_sprzedazy" id="B4E51991-97DC-965A-2F3D-780C55A30EB8">
 <createdBy>eglob</createdBy>
 <createdTime>2020-03-27 17:20:07 UTC</createdTime>
 <generatorID>5D1B5D94-3748-76B2-ED71-5534DD8214C4</generatorID>
@@ -82,7 +84,22 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>89EFAAB1-8997-64B5-FE85-37BC8F4DD5E2</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer_klienta" id="0F759F55-91EC-1BD1-27C4-289654296E62">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:08:22 UTC</createdTime>
+<generatorID>8EBF4E93-CC94-27AE-39F4-B3E85CCA2601</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<engineerTo>
+<item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>47C7F042-1F8D-BF76-D1B1-C97B169C1B4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

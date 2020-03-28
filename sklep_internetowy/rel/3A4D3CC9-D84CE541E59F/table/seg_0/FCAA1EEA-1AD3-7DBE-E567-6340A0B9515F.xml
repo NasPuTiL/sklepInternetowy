@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCAA1EEA-1AD3-7DBE-E567-6340A0B9515F" name="SZCZEGOLY_TRANSAKCJI">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>4DB9222B-DE58-1B81-AA9C-37A0CF51FDD3</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TOWAR_ID_towaru" id="D8BE30DF-57D2-BBF7-4AC5-2E210A8B373F">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>55F4EE14-9420-4209-7EE7-079BD3F4B905</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26983C4D-9899-AC1A-FAA3-C323B13D3581" referredColumn="40286216-E472-928D-2D53-00475F9D2255"/>
+</associations>
+</Column>
+<Column name="Ilosc_towaru" id="3472B67E-93F7-1AB5-C67D-7EF9C961FEC6">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>7368E984-D200-05E3-84CB-90DC5195BA8E</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARAGON_FAKTURA_Numer_paragonu_faktury" id="4F7CC52D-88AC-3A13-B9E3-2DE685B6EF4D">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>F43783FF-DB44-1062-95E4-26E248FA8B96</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289D2595-7C2F-BEBF-74D9-975D26DFA124" referredColumn="17AEB822-AC8E-B200-DBE6-4B902712BA01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="753D92F9-11AD-38BB-AE21-311092D028AE" name="SZCZEGOLY_TRANSAKCJI_PARAGON_FAKTURA_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>1DB72ECE-C482-AB83-39D6-F5BDA7ACFCB8</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F7CC52D-88AC-3A13-B9E3-2DE685B6EF4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48762AB4-93F0-0C18-3D8D-96355B09B40C" name="SZCZEGOLY_TRANSAKCJI_TOWAR_FK">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 16:18:41 UTC</createdTime>
+<generatorID>705299B6-6030-2FE8-63F2-E7BEE9A730CC</generatorID>
+<ownerDesignName>sklep_internetowy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8BE30DF-57D2-BBF7-4AC5-2E210A8B373F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

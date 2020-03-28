@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANEKS DO UMOWY_PRACOWNIK_FK" directorySegmentName="seg_0" id="A59A1D0C-F93C-374C-BE60-C039D101C3A0">
-<createdBy>eglob</createdBy>
-<createdTime>2020-03-27 17:20:07 UTC</createdTime>
-<generatorID>D2DDAD90-AB72-8402-350D-A202A8F7C471</generatorID>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="4373D6EB-9F20-0FEE-372F-53AC069BB244">
+<createdBy>NasPu</createdBy>
+<createdTime>2020-03-28 15:52:41 UTC</createdTime>
 <ownerDesignName>sklep_internetowy</ownerDesignName>
 <engineerTo>
 <item key="3A4D3CC9-BB7A-E031-534A-D84CE541E59F" value="true"/>
@@ -14,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2610EB2B-8B29-7390-BC0F-7756A8C3C532</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>59BBA313-39D5-1E3D-635B-0232622F59BB</targetEntity>
+<targetEntity>2CEC76FB-C272-B669-8939-6A7731C93F70</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
