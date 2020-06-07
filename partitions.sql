@@ -94,7 +94,7 @@ SELECT $PARTITION.towarPartitionfunction (6);
 
 
 
-select * from PartitionTable;
+select * from sys.partitions p WHERE object_id = object_id ('PartitionTable');
 
 --nr partycji i liczba elementow w partycji
 SELECT $PARTITION.towarPartitionfunction(id) AS Partition,COUNT(*) AS [COUNT] FROM PartitionTable   

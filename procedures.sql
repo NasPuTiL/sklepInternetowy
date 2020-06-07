@@ -2,18 +2,18 @@
 --select * from klient;
 DROP PROCEDURE set_Klient;
 CREATE PROCEDURE set_Klient AS
-DECLARE @counter INT = 1;
-WHILE @counter <= 100
+DECLARE @counter INT = 101;
+WHILE @counter <= 200
 	BEGIN
 	INSERT INTO klient (numer_klienta, nazwa_klienta)
 		 VALUES(@counter, 'Andrzej Testowy_KLIENT_' + CAST(@counter as varchar(10)))
 
 	SET @counter = @counter + 1;
-END
+END;
 EXEC set_Klient;
+select  COUNT(*) from klient k2 ;
 
-
-SELECT * FROM pracownik
+SELECT * FROM pracownik;
 --DELETE from pracownik;
 --DROP PROCEDURE set_Pracownik;
 CREATE PROCEDURE set_Pracownik AS
@@ -88,7 +88,7 @@ EXEC set_Annex;
 select * from aneks_do_umowy;
 
 
-DROP PROCEDURE set_sklep;
+--DROP PROCEDURE set_sklep;
 CREATE PROCEDURE set_sklep AS
 DECLARE @counter INT = 1;
 WHILE @counter <= 1
@@ -104,7 +104,7 @@ select * from sklep;
 DELETE from sklep;
 
 
-DROP PROCEDURE set_towar;
+--DROP PROCEDURE set_towar;
 CREATE PROCEDURE set_towar AS
 DECLARE @counter INT = 1;
 WHILE @counter <= 1000
@@ -133,7 +133,7 @@ END
 EXEC set_paragon_Faktorura;
 
 
-DROP PROCEDURE set_szczegoly_transakcji;
+--DROP PROCEDURE set_szczegoly_transakcji;
 CREATE PROCEDURE set_szczegoly_transakcji AS
 DECLARE @counter INT = 1;
 WHILE @counter <= 10
